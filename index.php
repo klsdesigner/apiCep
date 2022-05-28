@@ -10,4 +10,6 @@ if (!$consultaCep) {
     echo "Este cep não é valido ou não existe!";
 }
 
-print_r($consultaCep);
+foreach ($consultaCep as $value) {
+    var_dump($value);
+}
